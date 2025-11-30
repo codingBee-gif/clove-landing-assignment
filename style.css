@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    font-family:verdana;
+}
+
+.emptyStomologyBgContainer{
+    background-image: url("./images/doctorImage-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  height: 60vh;
+    width: 70vw;    
+    display: flex;
+    flex-direction: row;
+    align-items: end;   
+
+
+}
+.mainDiv{
+  
+    display: flex;
+}
+.treatmentInfo{
+   backdrop-filter: blur(7px);
+    color: black;
+    height: 120px;
+    width: 40vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin-bottom: 120px;
+    gap: 10px;
+    padding-left: 80px;
+    flex-shrink: 0;
+}
+
+.bookAppointmentBtn2{
+    background-color: orange;
+    border-radius: 15px;
+    height: 40px;
+    width: 180px;
+    border-width: 0px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: verdana;
+
+}
+.doctor{
+    height: 50vh;
+}
+.userDataPage{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 30vw;
+   flex-shrink: 1;
+  
+}
+.userDataPage{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 30vw;
+     height: 60vh;
+     align-items: center;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    width: 25vw;
+    border-width: 0px;
+    border-width: 1px;
+    border-color: orange;
+    padding: 5px;
+    font-size: 13px;
+    font-family: verdana;
+    margin-bottom: 14px;
+}
+.checkboxInput{
+    height: 33px;
+    width: 14px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+   
+}
+.CaptchaText{
+     height: 33px;
+     background-color: brown;
+     width: 70px;
+     border-radius: 0px 14px 14px 0px;
+     width: 6vw;
+      padding: 5px;
+    
+}
+.flexArea{
+    display: flex;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.container3Para{
+    color: orange;
+    font-weight: bold;
+}
+.container3Heading{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.mainContainer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7px;
+    padding: 6px;
+    margin-top: 10px;
+    flex-shrink: 1;
+    overflow-x: auto;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+
+    border-style: solid;
+    border-color: grey;
+    border-radius: 15px;
+    box-shadow: 80px;
+    width: 45vw;
+}
+.card1Data{
+ 
+   padding: 22px;
+  
+}
+.card5Images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card5{
+    overflow-x: auto;
+    flex-shrink: 1;
+}
